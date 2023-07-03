@@ -1,0 +1,54 @@
+{
+  "name": "quickstart",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-vue-calendars": "*",
+    "@syncfusion/ej2-vue-dropdowns": "*",
+    "@syncfusion/ej2-vue-buttons": "*",
+    "@syncfusion/ej2-vue-grids": "*",
+    "@syncfusion/ej2-vue-inputs": "*",
+    "@syncfusion/ej2-vue-navigations": "*",
+    "@syncfusion/ej2-vue-treegrid": "*",
+    "axios": "^0.21.4",
+    "bootstrap": "4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.1",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.29.1",
+    "save": "^2.4.0",
+    "vue": "^2.6.14",
+    "vue-autosuggest": "^2.2.0",
+    "vue-good-table": "^2.21.11",
+    "vue-i18n": "^8.26.7",
+    "vue-loading-overlay": "^4.0.4",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "vue-class-component": "^8.0.0-rc.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
