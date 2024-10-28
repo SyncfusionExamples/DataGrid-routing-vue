@@ -12,7 +12,7 @@
   "dependencies": {
     "@syncfusion/ej2-vue-buttons": "*",
     "@syncfusion/ej2-vue-grids": "*",
-    "axios": "^0.21.4",
+    "axios": "^0.28.0",
     "bootstrap": "5.0.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.19.1",
@@ -41,9 +41,9 @@
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
     "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
+    "vue-template-compiler": "^3.0.0",
     "vue-class-component": "^8.0.0-rc.1",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^3.1.11"
   }
 }
