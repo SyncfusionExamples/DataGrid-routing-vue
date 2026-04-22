@@ -10,8 +10,8 @@
     "build": "webpack --mode=production"
   },
   "dependencies": {
-    "@syncfusion/ej2-vue-buttons": "^27.2.2",
-    "@syncfusion/ej2-vue-grids": "^27.2.2",
+    "@syncfusion/ej2-vue-buttons": "*",
+    "@syncfusion/ej2-vue-grids": "*",
     "axios": "^1.6.0",
     "bootstrap": "5.0.0",
     "bootstrap-vue": "^2.21.2",
